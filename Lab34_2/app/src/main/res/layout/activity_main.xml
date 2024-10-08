@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <!-- Container để chứa các TextView được nạp từ XML -->
+    <LinearLayout
+        android:id="@+id/textViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1" />
+    <!-- Nút để thêm thành phần từ XML -->
+    <Button
+        android:id="@+id/addFromXmlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm thành phần"
+        android:layout_gravity="center" />
+    <!-- Nút để xóa tất cả các TextView -->
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa tất cả"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
